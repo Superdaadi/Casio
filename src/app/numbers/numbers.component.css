@@ -1,0 +1,74 @@
+.numbers {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.column {
+    width: 70px;
+}
+
+.column button {
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    margin: 2px;
+    cursor: pointer;
+    width: 66px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    height: 46px;
+    position: relative;
+    margin-top: 4px;
+}
+
+.actions svg path{
+    color: white;
+    background-color: white;
+}
+
+.label {
+    height: 18px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 66px;
+    top: -14px;
+}
+.shift {
+    font-weight: 600;
+    color: rgb(208, 173, 0);
+}
+.alpha {
+    font-weight: 600;
+    color: rgb(255, 0, 98);
+}
+
+
+
+
+
+.yellow {
+    background-color: rgb(223, 163, 0) !important;
+    color: black !important;
+    font-weight: 600 !important;
+}
