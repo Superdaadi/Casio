@@ -1,3 +1,9 @@
+sup {
+    vertical-align: super;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
 .numbers {
     width: 100%;
     display: flex;
@@ -35,7 +41,7 @@
 .actions {
     display: flex;
     flex-direction: column;
-    height: 46px;
+    height: 44px;
     position: relative;
     margin-top: 4px;
 }
@@ -47,27 +53,23 @@
 
 .label {
     height: 18px;
-    font-size: 12px;
+    font-size: 10px;
     display: flex;
     justify-content: space-around;
     position: absolute;
     width: 66px;
-    top: -14px;
+    top: -11px;
 }
-.shift {
-    font-weight: 600;
-    color: rgb(208, 173, 0);
-}
-.alpha {
-    font-weight: 600;
-    color: rgb(255, 0, 98);
-}
+.label div { font-weight: 600; }
+
+.yellow { color: rgb(208, 173, 0); }
+.red { color: rgb(255, 0, 98); }
 
 
 
 
 
-.yellow {
+.bg-yellow {
     background-color: rgb(223, 163, 0) !important;
     color: black !important;
     font-weight: 600 !important;
