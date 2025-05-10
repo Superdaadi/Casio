@@ -1,3 +1,10 @@
+sup {
+    vertical-align: super;
+    position: absolute;
+    font-size: 7px;
+}
+
+
 .calculator {
     max-width: 400px;
     margin: 0 auto;
@@ -8,21 +15,24 @@
 .circles {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin-bottom: 28px;
     flex-direction: column;
     align-items: center;
 }
   
 .circle {
-    width: 30px;
-    height: 30px;
-    background-color: #000;
+    width: 25px;
+    height: 25px;
+    background-color: #2d2d2d;
+    border: 1px solid black;
     border-radius: 50%;
+    box-shadow: 1px 1px 20px -4px rgb(186, 186, 186);
+    cursor: pointer;
 }
 
 .c-label {
     height: 16px;
-    font-size: 12px;
+    font-size: 10px;
     display: flex;
     justify-content: space-around;
     margin-top: -10px;
@@ -35,7 +45,7 @@
     position: absolute;
     left: -35px;
 }
-.overLabel span{font-weight: 600;}
+.overLabel span{font-weight: 600; margin-left: 3px;}
   
 .dpad {
     display: grid;
@@ -67,7 +77,7 @@
         75% 100%, /* rechts unten */
         25% 100%, /* links unten */
         -10% 50% /* links oben */
-    );
+    ); 
 }
   
 .left {
@@ -153,15 +163,163 @@
     justify-content: space-around;
     margin-top: -10px;
 }
-.shift {
+.label div {
     font-weight: 600;
-    color: rgb(208, 173, 0);
+    position: relative;
 }
-.alpha {
-    font-weight: 600;
-    color: rgb(255, 0, 98);
+
+.yellow { color: rgb(208, 173, 0); }
+.red { color: rgb(255, 0, 98); }
+.blue { color: rgb(34, 0, 255); }
+
+.b-white { border: 1px solid white; }
+.b-yellow { border: 1px solid rgb(208, 173, 0); }
+
+.bg-white { background-color: white; }
+.bg-yellow { background-color: rgb(208, 173, 0); }
+.bg-red { background-color: rgb(255, 0, 98); }
+
+.realtive { position: relative; }
+
+
+
+.divide {
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
 }
-.alpha-blue {
-    font-weight: 600;
-    color: rgb(34, 0, 255);
+
+.divideShift {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
 }
+
+.frac {
+    position: absolute;
+    height: 7px;
+    width: 9px;
+}
+.fracShift {
+    position: absolute;
+    height: 6px;
+    width: 5px;
+}
+.fracO {
+    top: 11%;
+    border-radius: 10%;
+}
+.fracU {
+    top: 63%;
+    border-radius: 10%;
+}
+.fracM {
+    position: absolute;
+    top: calc(50% - 0.5px);
+    display: flex;
+    width: 20px;
+    height: 1px;
+    border-radius: 10%;
+}
+
+
+.fracOShift {
+    top: -3px;
+    left: 5px;
+    border-radius: 10%;
+}
+.fracUShift {
+    top: -1px;
+    left: 5px;
+    border-radius: 10%;
+}
+.fracMShift {
+    position: absolute;
+    top: -2px;
+    left: 5px;
+    display: flex;
+    width: 8px;
+    height: 1px;
+}
+
+.preFrac {
+    top: calc(50% - 2px); 
+    height: 12px;
+    width: 6px;
+    left: -2.4px;
+    border-radius: 10%;
+    position: relative;
+}
+
+.fracFont {
+    position: absolute;
+    top: -2px;
+    font-size: 5px;
+    width: 5px;
+    height: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.preFracFont {
+    position: absolute;
+    top: -0.6px;
+    left: 1px;
+    font-size: 5px;
+    width: 5px;
+    height: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.preFracFontArrow {
+    position: absolute;
+    top: -0.6px;
+    left: 0.4px;
+    font-size: 5px;
+    width: 5px;
+    height: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.swichFrac {
+    display: flex;
+    gap: 7px;
+}
+
+.SD {
+    margin-bottom: 5px;
+    top: 3px;
+}
+
+.abs {
+    margin-top: 3.5px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.abs-head {
+    width: 7px;
+    height: 1.5px;
+    border-radius: 0.4px;
+}
+.abs-body {
+    width: 7px;
+    height: 7px;
+    border-radius: 10%;
+}
+
+.logU{
+    margin-left: -3px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+

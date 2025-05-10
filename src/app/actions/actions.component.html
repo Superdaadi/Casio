@@ -9,11 +9,11 @@
   
     <div class="keys">
       <div class="circles">
-        <div class="c-label shift">Shift</div>
+        <div class="c-label yellow">SHIFT</div>
         <div class="circle"></div>
       </div>
       <div class="circles">
-        <div class="c-label alpha">Alpha</div>
+        <div class="c-label red">ALPHA</div>
         <div class="circle"></div>
       </div>
       <div></div>
@@ -22,7 +22,7 @@
         <div class="c-label">
           <div class="overLabel">
             <span>MENU&nbsp;</span>
-            <span class="shift">SETUP</span>
+            <span class="yellow">SETUP</span>
           </div>
         </div>
         <div class="circle"></div>
@@ -36,13 +36,13 @@
 
       <div class="actions">
         <div class="label">
-          <div class="shift">QR</div>
+          <div class="yellow">QR</div>
         </div>
         <button>OPTN</button>
       </div>
       <div class="actions">
         <div class="label">
-          <div class="shift">=</div>
+          <div class="yellow">=</div>
         </div>
         <button>CALC</button>
       </div>
@@ -50,13 +50,13 @@
       <div></div>
       <div class="actions">
         <div class="label">
-          <div class="shift">Ext</div>
+          <div class="yellow">&#928;</div>
         </div>
-        <button>E</button>
+        <button>&#931;</button>
       </div>
       <div class="actions">
         <div class="label">
-          <div class="shift">:</div>
+          <div class="yellow">:</div>
         </div>
         <button>x</button>
       </div>
@@ -65,43 +65,70 @@
 
       <div class="actions">
         <div class="label">
-          <div class="shift">x°/.</div>
-          <div class="alpha">:R</div>
+          <div class="realtive">
+
+            <div class="divideShift">
+              <div class="preFrac fracShift bg-yellow"></div>
+
+              <div class="fracOShift b-yellow fracShift"></div>
+              <div class="fracMShift bg-yellow"></div>
+              <div class="fracUShift b-yellow fracShift"></div>
+            </div>
+          </div>
+          <div class="red">
+                <svg 
+                    viewBox="0 0 448 512" 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    width="8"
+                    height="8" 
+                    fill="rgb(255, 0, 98)"
+                >
+                    <path d="M400 224h-352c-17.69 0-32 14.31-32 31.1s14.31 32 32 32h352c17.69 0 32-14.31 32-32S417.7 224 400 224zM224 144c26.47 0 48-21.53 48-48s-21.53-48-48-48s-48 21.53-48 48S197.5 144 224 144zM224 368c-26.47 0-48 21.53-48 48s21.53 48 48 48s48-21.53 48-48S250.5 368 224 368z"/>
+                </svg>R</div>
         </div>
-        <button>°/.</button>
+        <button class="divide">
+            <div class="frac fracO bg-white b-white"></div>
+            <div class="fracM bg-white"></div>
+            <div class="frac fracU b-white"></div>
+        </button>
       </div>
       <div class="actions">
         <div class="label">
-          <div class="shift">x°/.</div>
-          <div class="alpha">:R</div>
+          <div class="yellow">&#8731;&#9744;</div>
+
+          <div class="abs">
+            <div class="abs-head bg-red"></div>
+            <div class="abs-body bg-red"></div>
+          </div>
+
         </div>
-        <button>SQR</button>
+        <button>&#8730;&#9744;</button>
       </div>
       <div class="actions">
         <div class="label">
-          <div class="shift">x³</div>
-          <div class="alpha-blue">DEC</div>
+          <div class="yellow">x³</div>
+          <div class="blue">DEC</div>
         </div>
         <button>x²</button>
       </div>
       <div class="actions">
         <div class="label">
-          <div class="shift">V</div>
-          <div class="alpha-blue">HEX</div>
+          <div class="yellow"><sup style="top: -2px; left: -1px;">&#9632;</sup>&#8730;&#9744;</div>
+          <div class="blue">HEX</div>
         </div>
-        <button>xⁿ</button>
+        <button style="position: relative;">x<sup style="left: 31px; top: 2px; font-size: 12px;">&#9632;</sup></button>
       </div>
       <div class="actions">
         <div class="label">
-          <div class="shift">10²</div>
-          <div class="alpha-blue">BIN</div>
+          <div class="yellow">10<sup style="left: 12px;">&#9632;</sup></div>
+          <div class="blue">BIN</div>
         </div>
-        <button>log</button>
+        <button>log<span class="logU">&#9623;</span></button>
       </div>
       <div class="actions">
         <div class="label">
-          <div class="shift">eⁿ</div>
-          <div class="alpha-blue">OCT</div>
+          <div class="yellow">e<sup style="left: 7px;">&#9632;</sup></div>
+          <div class="blue">OCT</div>
         </div>
         <button>ln</button>
       </div>
@@ -110,43 +137,43 @@
 
       <div class="actions">
         <div class="label">
-          <div class="shift">log</div>
-          <div class="alpha">A</div>
+          <div class="yellow">log</div>
+          <div class="red">A</div>
         </div>
         <button>(-)</button>
       </div>
       <div class="actions">
         <div class="label">
-          <div class="shift">FACT</div>
-          <div class="alpha">B</div>
+          <div class="yellow">FACT</div>
+          <div class="red">B</div>
         </div>
         <button>° ‘ ’’</button>
       </div>
       <div class="actions">
         <div class="label">
-          <div class="shift">x!</div>
-          <div class="alpha">C</div>
+          <div class="yellow">x!</div>
+          <div class="red">C</div>
         </div>
-        <button>x⁻¹</button>
+        <button style="position: relative;">x<sup style="left: 30px; top: 2px; font-size: 10px;">-1</sup></button>
       </div>
       <div class="actions">
         <div class="label">
-          <div class="shift">sin¹</div>
-          <div class="alpha">D</div>
+          <div class="yellow">sin<sup style="left: 18px; top: 1px;">-1</sup></div>
+          <div class="red">D</div>
         </div>
         <button>sin</button>
       </div>
       <div class="actions">
         <div class="label">
-          <div class="shift">cos¹</div>
-          <div class="alpha">E</div>
+          <div class="yellow">cos<sup style="left: 22px; top: 1px;">-1</sup></div>
+          <div class="red">E</div>
         </div>
         <button>cos</button>
       </div>
       <div class="actions">
         <div class="label">
-          <div class="shift">tan¹</div>
-          <div class="alpha">F</div>
+          <div class="yellow">tan<sup style="left: 21px; top: 1px;">-1</sup></div>
+          <div class="red">F</div>
         </div>
         <button>tan</button>
       </div>
@@ -155,40 +182,57 @@
 
       <div class="actions">
         <div class="label">
-          <div class="shift">RECALL</div>
+          <div class="yellow">RECALL</div>
         </div>
         <button>STO</button>
       </div>
       <div class="actions">
         <div class="label">
-          <div class="shift">&lt;-</div>
+          <div class="yellow">&#11013;</div>
         </div>
         <button>ENG</button>
       </div>
       <div class="actions">
         <div class="label">
-          <div class="shift">Abs</div>
+          <div class="yellow">Abs</div>
         </div>
         <button>(</button>
       </div>
       <div class="actions">
         <div class="label">
-          <div class="shift">;</div>
-          <div class="alpha">x</div>
+          <div class="yellow">;</div>
+          <div class="red">x</div>
         </div>
         <button>)</button>
       </div>
       <div class="actions">
         <div class="label">
-          <div class="shift">abc</div>
-          <div class="alpha">y</div>
+          <div class="realtive swichFrac">
+
+            <div class="divideShift">
+              <div class="preFrac fracShift"><div class="preFracFont yellow">a</div></div>
+
+              <div class="fracOShift fracShift"><div class="fracFont yellow">b</div></div>
+              <div class="fracMShift bg-yellow"></div>
+              <div class="fracUShift fracShift"><div class="fracFont yellow">c</div></div>
+            </div>
+
+            <div class="divideShift">
+              <div class="preFrac fracShift"><div class="preFracFontArrow yellow">&#10234;</div></div>
+              <div class="fracOShift fracShift"><div class="fracFont yellow">d</div></div>
+              <div class="fracMShift bg-yellow"></div>
+              <div class="fracUShift fracShift"><div class="fracFont yellow">c</div></div>
+            </div>
+
+          </div>
+          <div class="red">y</div>
         </div>
-        <button>S-D</button>
+        <button>S<span class="SD">&#10234;</span>D</button>
       </div>
       <div class="actions">
         <div class="label">
-          <div class="shift">M-</div>
-          <div class="alpha">M</div>
+          <div class="yellow">M-</div>
+          <div class="red">M</div>
         </div>
         <button>M+</button>
       </div>
